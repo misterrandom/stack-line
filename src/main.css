@@ -1,0 +1,121 @@
+body {
+    background-color: #f6f8fa;
+    margin: 0;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #f6f8fa;
+    overflow: hidden;
+    padding-top: 50px;
+}
+.header {
+    background-color: #fff;
+}
+.header img {
+    height: 40px;
+    padding: 6px;
+}
+.leftNav {
+    float: left;
+    width: 240px;
+    margin-left: 5px;
+    background-color: #fff;
+    height: 1000px;
+}
+
+.product-detail img {
+    width: 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 10px;
+}
+
+.product-detail {
+    width: 240px;
+    text-align: center;
+    font-family: arial;
+    padding-top: 20px;
+}
+
+.subtitle {
+    font-size: 11px;
+    line-height: 1.5;
+    color: #999;
+    padding: 0 30px;
+}
+
+.tag-list {
+    margin: 5px;
+    padding: 10px 5px 5px 5px;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    overflow: auto;
+}
+.tag {
+    margin-right: 5px;
+    margin-bottom: 7px;
+    border: lightgray 1px solid;
+    padding: 3px 10px;
+    float: left;
+    border-radius: 5px;
+    font-family: helvetica;
+    color: #666;
+    font-size: 13px;
+}
+
+.report-panel {
+    float: left;
+    margin-left: 10px;
+    background-color: #fff;
+    width: 1010px;
+}
+
+.report-panel h2 {
+    font-family: arial;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.header-summary-row {
+    clear: both;
+    margin: 10px 0;
+    overflow: hidden;
+    padding: 15px 0;
+    border-bottom: #f7f8fa 1px solid;
+    color: #333;
+}
+
+.summary-row {
+    clear: both;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 5px 0;
+    border-bottom: #f7f8fa 1px solid;
+    color: #999;
+}
+
+.first-summary-cell {
+    float: left;
+    width: 10%;
+    margin-left: 3%;
+}
+
+.summary-cell {
+    float: left;
+    width: 21%;
+    text-align: right;
+}
+
+.summary-table {
+    font-family: arial;
+    font-size: 13px;
+    border-top: 50px #f7f8fa solid;
+}
